@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Site", "Travel.Site\Travel.Site.csproj", "{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Site", "Travel.Site\Travel.Site.csproj", "{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Domain", "Travel.Domain\Travel.Domain.csproj", "{2FE8BBC8-4456-4864-BCB4-A071700D6A91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Domain", "Travel.Domain\Travel.Domain.csproj", "{A4AA720C-1491-461E-BF5A-440EC0875807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.SimpleCRUD", "Dapper.SimpleCRUD\Dapper.SimpleCRUD\Dapper.SimpleCRUD.csproj", "{CF5A0125-1B0B-47AD-B4DC-163D3432F1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{DAF76F93-301D-400E-A28E-A1591BEC1E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Service", "Travel.Service\Travel.Service.csproj", "{3B546989-17C2-4155-BF7C-60A69E4387D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +23,24 @@ Global
 		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AA720C-1491-461E-BF5A-440EC0875807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AA720C-1491-461E-BF5A-440EC0875807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AA720C-1491-461E-BF5A-440EC0875807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AA720C-1491-461E-BF5A-440EC0875807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5A0125-1B0B-47AD-B4DC-163D3432F1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5A0125-1B0B-47AD-B4DC-163D3432F1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5A0125-1B0B-47AD-B4DC-163D3432F1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5A0125-1B0B-47AD-B4DC-163D3432F1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B546989-17C2-4155-BF7C-60A69E4387D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B546989-17C2-4155-BF7C-60A69E4387D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B546989-17C2-4155-BF7C-60A69E4387D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B546989-17C2-4155-BF7C-60A69E4387D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF5A0125-1B0B-47AD-B4DC-163D3432F1AF} = {DAF76F93-301D-400E-A28E-A1591BEC1E2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9D230DF-4E73-495F-9037-89B637C68FA3}
