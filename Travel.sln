@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Site", "Travel.Site\Travel.Site.csproj", "{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Domain", "Travel.Domain\Travel.Domain.csproj", "{2FE8BBC8-4456-4864-BCB4-A071700D6A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52A0BFC-A09A-4592-BA8B-3B7FE92E0CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE8BBC8-4456-4864-BCB4-A071700D6A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9D230DF-4E73-495F-9037-89B637C68FA3}
+	EndGlobalSection
+EndGlobal
