@@ -14,9 +14,9 @@ namespace Travel.Domain
     {
         private IDbConnection _connection;
         public IDbContext Context { get; private set; }
-        public BaseRepository(IDbContext context)
+        public BaseRepository(IDbContext _context)
         {
-            Context = context;
+            Context = _context;
         }
 
         #region  成员方法

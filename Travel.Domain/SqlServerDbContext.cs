@@ -18,7 +18,7 @@ namespace Travel.Domain
 
         public SqlServerDbContext()
         {
-            _connectionString = ConfigurationManager.AppSettings["UsedConnectionString"];
+            _connectionString = "server=116.62.208.130;database=Travel; User ID=sa;Password=yannis_123@live.com";
         }
 
         public IDbConnection Connection
@@ -39,7 +39,7 @@ namespace Travel.Domain
                 }
                 catch (Exception e)
                 {
-                    throw e;
+                     throw e;
                 }
 
             }

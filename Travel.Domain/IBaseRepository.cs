@@ -10,10 +10,6 @@ namespace Travel.Domain
     /// <typeparam name="T"></typeparam>
     public interface IBaseRepository<T> where T : class
     {
-        /// <summary>
-        /// 数据连接
-        /// </summary>
-        IDbContext Context { get; }
 
         #region  成员方法
         /// <summary>

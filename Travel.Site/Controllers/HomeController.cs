@@ -4,14 +4,21 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Travel.Service.IService;
 using Travel.Site.Models;
 
 namespace Travel.Site.Controllers
 {
     public class HomeController : Controller
     {
+        ICategoryService _service = null;
+        public HomeController(ICategoryService service)
+        {
+            _service = service;
+        }
         public IActionResult Index()
         {
+            var category = _service.GetModelById(1);
             return View();
         }
 
