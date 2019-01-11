@@ -12,5 +12,10 @@ namespace Travel.Site.Controllers
         {
             return View();
         }
+
+        public IActionResult AddProject()
+        {
+            return View();
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace Travel.Service.IService
         /// <summary>
         /// 根据Id获取分类
         /// </summary>
-        /// <param name="Id"></param>
+        /// <param name="Id">分类Id</param>
         /// <returns></returns>
         Category GetModelById(int Id);
         /// <summary>
